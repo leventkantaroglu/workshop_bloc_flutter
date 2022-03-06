@@ -11,7 +11,7 @@ class CounterPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return BlocProvider(
       create: (_) => CounterCubit(),
-      child: CounterView(),
+      child: const CounterView(),
     );
   }
 }
