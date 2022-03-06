@@ -7,7 +7,7 @@ import 'counter_observer.dart';
 void main() {
   BlocOverrides.runZoned(
     () {
-      runApp(const CounterApp());
+      runApp(const MyApp());
     },
     blocObserver: CounterObserver(),
   );
